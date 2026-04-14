@@ -20,4 +20,5 @@ task copyExtensions(type: Copy) {
     }
     from configurations.extension.files
     into 'build/extensions/'
+    outputs.upToDateWhen { false }
 }
