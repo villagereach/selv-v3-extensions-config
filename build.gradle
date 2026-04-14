@@ -15,6 +15,9 @@ dependencies {
 }
 
 task copyExtensions(type: Copy) {
+    doFirst {
+        delete 'build/extensions/'
+    }
     from configurations.extension.files
     into 'build/extensions/'
 }
