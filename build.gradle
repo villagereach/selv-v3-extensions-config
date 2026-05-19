@@ -12,6 +12,7 @@ configurations {
 
 dependencies {
     extension "mz.org.selv:selv-v3-fulfillment-extension:1.1.0-SNAPSHOT"
+    extension "mz.org.selv:selv-v3-stockmanagement-extension:1.0.0-SNAPSHOT"
 }
 
 task copyExtensions(type: Copy) {
