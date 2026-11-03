@@ -2,7 +2,7 @@ version: "2"
 services:
 
   builder:
-    image: openlmis/dev:1
+    image: openlmis/dev:10
     volumes:
       - '.:/app'
     command:
